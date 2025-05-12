@@ -1,2 +1,4 @@
 # DoItForHer_RuanMei
-Simple Ruan Mei Project with HTML & CSS
+Simple Ruan Mei "Do it for her" Project with HTML & CSS
+
+Learned about up to Grid and Flex.
