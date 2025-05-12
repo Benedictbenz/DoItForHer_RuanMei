@@ -1,0 +1,174 @@
+body{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 100vh;
+    align-items: center;
+
+
+
+    padding: 0%;
+    margin: 0%;
+
+    
+
+    background-color: rgb(151, 179, 255);
+
+}
+
+h1{
+    font-family: "Homemade Apple", sans-serif;
+    font-weight: bold;
+    margin-top: 200px;
+    margin-bottom: 120px;
+}
+
+/* GRID */
+.container.outer{
+    background-color: rgb(0, 0, 0);
+
+    display: grid;
+    grid-template-columns: repeat(31,1fr);
+    grid-template-rows: repeat(31,1fr);
+    gap: 0px;
+
+    height: 700px;
+    width: 1000px;
+    
+
+    margin: 0%;
+    padding: 0%;
+}
+
+
+/* MAIN BOX */
+.container.middle{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    background-color: rgb(243, 173, 81);
+
+    grid-row: 3 / 30;
+    grid-column: 3 / 30;
+
+
+    
+    border: 2px black solid;
+    margin: 0%;
+    padding: 0%;
+
+
+    height: 600px;
+    width: 900px;
+
+}
+
+.container.inner{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(193, 179, 233);
+    height: 550px;
+    width: 850px;
+    
+
+    border: 2px black solid;
+}
+
+.MainText{
+    font-size: 120px;
+    text-align: center;
+    font-family: "Roboto Flex",sans-serif;
+    font-weight: bold;
+    font-style: normal;
+    overflow: hidden;
+    
+    padding: 0%;
+    margin: 0%;
+}
+
+/* 
+=================
+IMAGES 
+=================
+*/
+.frame{
+    background-color: rgba(255, 192, 203, 0);
+    
+}
+
+.image1{
+    grid-area: 1/7/8/14;
+    transform: rotate(2deg) scaleY(100%) translateY(-30%);
+    z-index: 1;
+}
+
+.image2{
+    grid-area: 1/20/8/26;
+    transform: rotate(-2deg) scaleX(150%) translateY(-80%);
+    z-index: 1;
+    
+}
+
+.image3{
+    grid-area: 8/9/12/11;
+    transform: scaleX(89%);
+    z-index: 2;
+}
+
+.image4{
+    grid-area: 7/11/10/13;
+    transform: rotate(2deg) translateX(5%) scaleX(0.8) ;
+    z-index: 2;
+}
+
+.image5{
+    grid-area: 4/21/12/28;
+    z-index: 1;
+    transform: translateY(7.5%) translateX(2%) rotate(1deg);
+}
+
+.image6{
+    grid-area: 3/25/18/32;
+    z-index: 1;
+    transform: translateY(5%) translateX(-5%) rotate(2deg);
+}
+
+.image7{
+
+    grid-area: 14/6/26/15;
+    z-index: 1;
+    transform: translateY(-5%) rotate(-8deg) ;
+}
+
+.image8{
+    grid-area: 13/12/19/18;
+    z-index: 1;
+    transform: rotate(2deg) scaleX(-100%);
+}
+
+.image9{
+    grid-area: 19/13/30/24;
+    z-index: 3;
+    transform: rotate(2deg);
+}
+
+.image10{
+    grid-area: 26/1/32/7;
+    z-index: 1;
+    transform: rotate(-4deg) scaleY(200%) translateX(-20%);
+
+}
+
+.image11{
+    grid-area: 23/26/32/32;
+    z-index: 1;
+    transform: rotate(2deg) scaleY(120%) scaleX(120%)translate(2%,5%);
+}
+
+img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
