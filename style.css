@@ -157,7 +157,7 @@ IMAGES
 .image10{
     grid-area: 26/1/32/7;
     z-index: 1;
-    transform: rotate(-4deg) scaleY(200%) translateX(-20%);
+    transform: rotate(-4deg) scaleY(200%) scaleX(200%) translateX(-20%);
 
 }
 
