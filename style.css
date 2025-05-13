@@ -5,22 +5,31 @@ body{
     height: 100vh;
     align-items: center;
 
-
-
     padding: 0%;
     margin: 0%;
 
-    
-
     background-color: rgb(151, 179, 255);
-
 }
 
 h1{
     font-family: "Homemade Apple", sans-serif;
     font-weight: bold;
-    margin-top: 200px;
+    margin-top: 300px;
     margin-bottom: 120px;
+    text-align: center;
+    
+    color: rgb(255, 255, 255);
+    text-shadow: 5px 5px 3px black;
+
+
+
+    background-color: rgb(106, 207, 194);
+    padding: 7px;
+    padding-left: 40px;
+    padding-right: 40px;
+    border: 5px solid rgb(8, 161, 149);
+
+    box-shadow: 5px 5px 15px black;
 }
 
 /* GRID */
@@ -36,8 +45,9 @@ h1{
     width: 1000px;
     
 
-    margin: 0%;
+    margin-top: 50px; margin-bottom: 80px;
     padding: 0%;
+    
 }
 
 
@@ -52,16 +62,14 @@ h1{
     grid-row: 3 / 30;
     grid-column: 3 / 30;
 
-
-    
     border: 2px black solid;
     margin: 0%;
     padding: 0%;
 
-
     height: 600px;
     width: 900px;
 
+    box-shadow: 3px 3px 45px;
 }
 
 .container.inner{
@@ -106,7 +114,7 @@ IMAGES
 
 .image2{
     grid-area: 1/20/8/26;
-    transform: rotate(-2deg) scaleX(150%) translateY(-80%);
+    transform: rotate(-2deg) scaleX(150%) translateY(-50%);
     z-index: 1;
     
 }
@@ -171,4 +179,13 @@ img{
     width: 100%;
     height: 100%;
     object-fit: cover;
+}
+
+footer p{
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 20px;
+    margin-bottom: 45px;
+    font-weight: bold;
+
+    text-shadow: 5px 5px 3px rgb(73, 170, 73);
 }
